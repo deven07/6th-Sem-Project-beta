@@ -1,0 +1,70 @@
+ body
+ {
+ 	background-image: url(back.jpg);
+	
+
+}
+
+input[type=button] {
+ position: absolute;
+ top : 8px;
+ right : 70px;
+ background-color: #ffcc34;
+
+ 
+}
+
+input[type=text] {
+ position: absolute;
+ top : 9px;
+ right : 150px;
+ font-size: 16px;
+ background-color: black;
+ color: white;
+
+}
+ .button {
+ 	width: 50px;
+    height: 50px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    background-image: url(images/menu.ico);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+    font-size: 16px;
+    position:absolute;
+       left:8px;	
+       top:62px;
+}
+ .button2 {
+	   background-image: url(images/user.ico);   
+       position:absolute;
+       left:8px;	
+       top:116px;
+}
+ .button3 {
+	
+    background-image: url(images/setting.ico);
+    position:absolute;
+       left:8px;	
+       top:170px;
+}
